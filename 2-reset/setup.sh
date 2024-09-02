@@ -2,10 +2,10 @@ echo "## Deleting previous exercise"
 rm -rf exercise/
 rm -rf exercise-origin.git
 
-echo "## Creating origin"
+echo "## Creating local origin"
 git -c init.defaultBranch="master" init --bare exercise-origin.git
 
-echo "## Creating local"
+echo "## Creating local repository"
 git -c init.defaultBranch="master" init exercise
 cd exercise
 git remote add origin ../exercise-origin.git
@@ -15,27 +15,27 @@ git push -u origin master
 echo "## Commiting changes"
 git checkout -b feature
 
-touch "contacts.go"
-touch "pmc.go"
+touch "debt.go"
+touch "creditline.go"
 
-echo "contacts code" >> contacts.go
+echo "debt code" >> debt.go
 git add .
-git commit -am "wip contacts"
+git commit -am "chore: wip debt"
 
-echo "pmc code" >> pmc.go
+echo "creditline code" >> creditline.go
 git add .
-git commit -am "wip pmc"
+git commit -am "chore: wip creditline"
 
-echo "pmc code" >> pmc.go
-git commit -am "wip pmc"
+echo "creditline code" >> creditline.go
+git commit -am "chore: wip creditline"
 
-echo "contacts code" >> contacts.go
-git commit -am "wip contacts"
+echo "debt code" >> debt.go
+git commit -am "chore: wip debt"
 
-echo "contacts code" >> contacts.go
-git commit -am "wip contacts"
+echo "debt code" >> debt.go
+git commit -am "chore: wip debt"
 
-echo "pmc code" >> pmc.go
-git commit -am "wip pmc"
+echo "creditline code" >> creditline.go
+git commit -am "chore: wip creditline"
 
 git push -u origin feature
