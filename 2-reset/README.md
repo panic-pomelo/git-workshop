@@ -1,6 +1,8 @@
 # Ejercicio 2 - Reset
 
-Leer [setup general de ejercicios](../README.md#ejercicios)
+> Leer [setup general de ejercicios](../README.md#ejercicios)
+
+En un feature, se trabajó en los archivos `debt.go` y `creditline.go`, pero queremos emprolijar los commits antes de mandar a review.
 
 - Inspeccionar los commits con `glo`, hubo cambios en `debt.go` y `creditline.go`
 - Usar `git reset` con el modo adecuado (`--soft` / `--mixed` / `--hard`) para reescribir la historia del branch y dejarla prolija

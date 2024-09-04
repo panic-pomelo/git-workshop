@@ -39,7 +39,7 @@ Cada ejercicio está en un directorio separado y tiene su script de setup `setup
 Recomendaciones:
 
 - Si quieren probar devuelta el ejercicio o se mandaron alguna macana difícil de recuperar, corran el `setup.sh` de vuelta y se regenera todo.
-- Entre comandos usen `git status`, `git log`, etc. para saber qué está pasando.
+- Entre comandos usen `git status`, `git log`, etc. para conocer el estado del repositorio y qué está pasando.
 
 Listado de ejercicios
 

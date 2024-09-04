@@ -1,6 +1,8 @@
 # Ejercicio 3 - Reflog
 
-Ojo! Hay más de un branch.
+> Leer [setup general de ejercicios](../README.md#ejercicios)
+
+¡Ojo! Hay más de un branch.
 
 Usar `git branch` para verlas y `gloga` para ver el grafo de commits 
 
