@@ -1,2 +1,7 @@
 Grabados con asciinema (https://docs.asciinema.org/getting-started/) y convertidos a gif con agg (https://docs.asciinema.org/manual/agg/)
 
+Para convertir de los gifs a mp4,
+
+https://unix.stackexchange.com/questions/40638/how-to-do-i-convert-an-animated-gif-to-an-mp4-or-mv4-on-the-command-line
+
+    ffmpeg -i amend.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" amend.mp4
